@@ -43,7 +43,7 @@ export default function App() {
       </form>
       <div className="max-w-screen-sm w-full mx-auto p-4 flex flex-col gap-1">
         {todos.length === 0 && (
-          <p className=" text-white/50 ">No tienes tareas pendientes 🤷🏿‍♂️</p>
+          <p className=" text-white/50 ">No tienes tareas pendientes 🔩</p>
         )}
         {todos.map((todo, idx) => {
           return (
